@@ -2,7 +2,7 @@
 import os
 import time
 import sys
-from Pubnub import Pubnub
+from pubnub import Pubnub
 
 pubnub = Pubnub(publish_key='demo', subscribe_key='demo')
 channel = 'tempeon'
